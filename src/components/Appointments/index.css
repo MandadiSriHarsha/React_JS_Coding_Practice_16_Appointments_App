@@ -1,0 +1,160 @@
+.appointments-app-bg-container {
+  min-height: 100vh;
+  padding: 30px;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+}
+
+.appointments-app-form {
+  background-color: #ffffff;
+  border: 0px solid;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.add-appointment-card-heading {
+  font-size: 25px;
+  color: #171f46;
+}
+
+.title {
+  color: #b5b7c4;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.date {
+  color: #b5b7c4;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text-box {
+  height: 40px;
+  width: 80%;
+  border: 1px solid #b5b7c4;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 10px 0px 10px 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.date-box {
+  height: 40px;
+  width: 80%;
+  border: 1px solid #b5b7c4;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 10px 0px 10px 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  height: 35px;
+  width: 70px;
+  font-weight: 400;
+  border: 0px solid;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.add-appointment-image-card {
+  display: none;
+}
+
+hr {
+  background-color: #b5b7c4;
+  border: 1px solid #b5b7c4;
+  margin: 0px 10px 10px 10px;
+}
+
+.card-2-title-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-2-title-card-heading {
+  font-size: 25px;
+  color: #171f46;
+}
+
+.card-2-title-card-button {
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  color: #9897f0;
+  height: 30px;
+  width: 80px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+
+.appointments-list-card {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .appointments-app-bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .appointments-app-form {
+    padding: 40px;
+    width: 90%;
+  }
+  .add-appointment-card-heading {
+    font-size: 40px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .date {
+    font-size: 20px;
+  }
+  .text-box {
+    height: 40px;
+    width: 400px;
+  }
+  .date-box {
+    height: 40px;
+    width: 400px;
+  }
+  .card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-2-title-card-button {
+    margin-right: 50px;
+  }
+  .add-appointment-image-card {
+    display: block;
+  }
+  .add-appointment-image-card-image {
+    margin-left: 150px;
+  }
+  .card-2-title-card-heading {
+    font-size: 40px;
+  }
+  .appointments-list-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
